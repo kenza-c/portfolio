@@ -1,0 +1,60 @@
+.experience{
+    background-color: #20202b;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience h2{
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.myskills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+.skills{
+    width: 25vw;
+    min-height: 60vh;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    border: 1px solid white;
+}
+.skills ul{
+    list-style: none;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills ul li{
+    margin: 10px 5px;
+    font-size: 15px;
+    background-color: #b7b704;
+    padding: 9px 29px;
+    color: black;
+    border-radius: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid #b7b704;
+    cursor: pointer;
+}
+.skills ul li:hover{
+    color: #b7b704;
+    background-color: inherit;
+    border: 1px solid #b7b704;
+}
+.skills h3{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 20px 0;
+}

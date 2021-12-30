@@ -1,0 +1,33 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tsparticles {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.text-effect:nth-child(1){
+    
+    color: #b7b704;
+    font-size: 40px;
+}
+.text-effect{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.scroller{
+    position: relative;
+top:230px    
+    
+}
